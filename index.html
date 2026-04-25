@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO Meta Tags -->
+  <title>خياطة عصرية | أفضل خياطة في اليوسفية والمغرب</title>
+  <meta name="description" content="خياطة عصرية باليوسفية — تخصص في القفطان المغربي، فساتين السهرة، والجلابة. أناقة مغربية أصيلة بأسلوب عصري فاخر." />
+  <meta name="keywords" content="خياطة عصرية باليوسفية, أفضل خياطة في المغرب, قفطان مغربي, جلابة, فساتين سهرة, خياطة اليوسفية, تفصيل ملابس المغرب" />
+  <meta name="author" content="خياطة عصرية" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="خياطة عصرية | اليوسفية" />
+  <meta property="og:description" content="أناقة الخياطة المغربية الأصيلة في قلب اليوسفية — قفطان، جلابة، فساتين سهرة" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ar_MA" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream:    '#F8F4EE',
+            ivory:    '#FDFAF5',
+            sand:     '#E8DCCC',
+            taupe:    '#C4B49A',
+            gold:     '#B8965A',
+            'gold-light': '#D4AF6A',
+            'gold-dark':  '#8B6D38',
+            charcoal: '#3A3530',
+            muted:    '#7A6E64',
+          },
+          fontFamily: {
+            display: ['"Playfair Display"', 'serif'],
+            body:    ['Tajawal', 'sans-serif'],
+          },
+          keyframes: {
+            fadeUp: {
+              '0%':   { opacity: '0', transform: 'translateY(40px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            shimmer: {
+              '0%':   { backgroundPosition: '-200% center' },
+              '100%': { backgroundPosition: '200% center' },
+            },
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%':      { transform: 'translateY(-8px)' },
+            },
+            revealLine: {
+              '0%':   { width: '0%' },
+              '100%': { width: '100%' },
+            },
+          },
+          animation: {
+            'fade-up':    'fadeUp 0.9s ease forwards',
+            'shimmer':    'shimmer 3s linear infinite',
+            'float':      'float 4s ease-in-out infinite',
+            'reveal-line':'revealLine 1.2s ease forwards',
+          },
+        },
+      },
+    };
+  </script>
+
+  <style>
+    :root {
+      --gold: #B8965A;
+      --gold-light: #D4AF6A;
+      --cream: #F8F4EE;
+      --charcoal: #3A3530;
+    }
+
+    * { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Tajawal', sans-serif;
+      background-color: #FDFAF5;
+      color: #3A3530;
+    }
+
+    /* ===== GOLD SHIMMER TEXT ===== */
+    .gold-shimmer {
+      background: linear-gradient(
+        90deg,
+        #8B6D38 0%,
+        #D4AF6A 30%,
+        #F5E4B8 50%,
+        #D4AF6A 70%,
+        #8B6D38 100%
+      );
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      animation: shimmer 4s linear infinite;
+    }
+
+    /* ===== DECORATIVE DIVIDER ===== */
+    .ornament-divider {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .ornament-divider::before,
+    .ornament-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #B8965A, transparent);
+    }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal {
+      opacity: 0;
+      transform: translateY(35px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ===== HERO PATTERN OVERLAY ===== */
+    .moroccan-pattern {
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23B8965A' fill-opacity='0.07'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+
+    /* ===== GALLERY HOVER ===== */
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .gallery-item img {
+      transition: transform 0.6s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(58,53,48,0.75) 0%, transparent 60%);
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      display: flex;
+      align-items: flex-end;
+      padding: 1.25rem;
+    }
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    /* ===== SERVICE CARD ===== */
+    .service-card {
+      background: linear-gradient(135deg, #FDFAF5 0%, #F8F4EE 100%);
+      border: 1px solid #E8DCCC;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .service-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(184,150,90,0.15);
+      border-color: #B8965A;
+    }
+
+    /* ===== NAV ===== */
+    .nav-link {
+      position: relative;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      right: 0;
+      width: 0;
+      height: 1px;
+      background: #B8965A;
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+
+    /* ===== WHATSAPP PULSE ===== */
+    @keyframes pulse-ring {
+      0%   { transform: scale(1);   opacity: 0.6; }
+      100% { transform: scale(1.5); opacity: 0; }
+    }
+    .whatsapp-pulse::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 9999px;
+      background: #25D366;
+      animation: pulse-ring 2s ease-out infinite;
+      z-index: -1;
+    }
+
+    /* ===== TEXTURE OVERLAY ===== */
+    .noise-overlay {
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+
+<body class="overflow-x-hidden">
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════ -->
+  <nav class="fixed top-0 right-0 left-0 z-50 bg-ivory/90 backdrop-blur-md border-b border-sand/60">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <!-- Logo -->
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-full bg-gold flex items-center justify-center">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="white">
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+          </svg>
+        </div>
+        <span class="font-display text-lg text-charcoal font-semibold tracking-wide">خياطة عصرية</span>
+      </div>
+
+      <!-- Nav Links (desktop) -->
+      <div class="hidden md:flex items-center gap-8 font-body text-sm text-muted">
+        <a href="#gallery" class="nav-link hover:text-gold transition-colors">معرض الأعمال</a>
+        <a href="#services" class="nav-link hover:text-gold transition-colors">خدماتنا</a>
+        <a href="#location" class="nav-link hover:text-gold transition-colors">موقعنا</a>
+        <a href="#contact" class="nav-link hover:text-gold transition-colors">تواصل معنا</a>
+      </div>
+
+      <!-- CTA -->
+      <a href="https://wa.me/212600000000"
+         class="hidden md:flex items-center gap-2 bg-gold hover:bg-gold-dark text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors duration-300">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        احجز موعدك
+      </a>
+
+    </div>
+  </nav>
+
+
+  <!-- ═══════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════ -->
+  <section id="hero" class="relative min-h-screen flex items-center overflow-hidden">
+
+    <!-- Background Image -->
+    <div class="absolute inset-0 z-0">
+      <img
+        src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1600&q=80"
+        alt="أناقة الخياطة المغربية"
+        class="w-full h-full object-cover object-center"
+      />
+      <div class="absolute inset-0 bg-gradient-to-l from-charcoal/80 via-charcoal/50 to-charcoal/20"></div>
+      <div class="absolute inset-0 moroccan-pattern"></div>
+    </div>
+
+    <!-- Decorative side accent -->
+    <div class="absolute right-0 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-gold to-transparent opacity-60 z-10"></div>
+
+    <!-- Hero Content -->
+    <div class="relative z-10 max-w-6xl mx-auto px-6 py-32 text-right">
+
+      <!-- Badge -->
+      <div class="inline-flex items-center gap-2 bg-gold/20 border border-gold/40 text-gold-light text-sm font-medium px-4 py-2 rounded-full mb-8 backdrop-blur-sm"
+           style="opacity:0;animation:fadeUp 0.7s ease 0.2s forwards">
+        <span class="w-1.5 h-1.5 rounded-full bg-gold-light animate-pulse"></span>
+        اليوسفية، المغرب
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="font-display text-5xl md:text-7xl text-ivory leading-tight mb-6"
+          style="opacity:0;animation:fadeUp 0.9s ease 0.4s forwards">
+        أناقة الخياطة<br />
+        <span class="gold-shimmer">العصرية</span><br />
+        <span class="text-4xl md:text-5xl font-light italic text-sand/90">في قلب اليوسفية</span>
+      </h1>
+
+      <!-- Tagline -->
+      <p class="font-body text-lg md:text-xl text-sand/80 max-w-lg mb-10 leading-relaxed"
+         style="opacity:0;animation:fadeUp 0.9s ease 0.6s forwards">
+        نصنع لكِ إطلالة فريدة تجمع بين أصالة التراث المغربي وأناقة الموضة المعاصرة — قفطان، جلابة، وفساتين سهرة بلمسة حرفية لا مثيل لها.
+      </p>
+
+      <!-- CTA Buttons -->
+      <div class="flex flex-wrap gap-4 justify-end"
+           style="opacity:0;animation:fadeUp 0.9s ease 0.8s forwards">
+        <a href="#gallery"
+           class="group flex items-center gap-2 bg-ivory text-charcoal font-medium px-7 py-3.5 rounded-full hover:bg-sand transition-all duration-300">
+          <span>اكتشفي أعمالنا</span>
+          <svg class="w-4 h-4 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+          </svg>
+        </a>
+        <a href="https://wa.me/212600000000"
+           class="flex items-center gap-2 bg-gold hover:bg-gold-dark text-white font-medium px-7 py-3.5 rounded-full transition-all duration-300 shadow-lg shadow-gold/30">
+          احجزي موعدك الآن
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 text-sand/60 text-xs font-body animate-float">
+      <span>تمرر للأسفل</span>
+      <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </div>
+
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       STATS BAR
+  ═══════════════════════════════════════ -->
+  <section class="bg-charcoal py-10">
+    <div class="max-w-5xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div class="reveal">
+        <div class="font-display text-4xl text-gold mb-1">+500</div>
+        <div class="font-body text-sm text-sand/70">عميلة راضية</div>
+      </div>
+      <div class="reveal" style="transition-delay:0.1s">
+        <div class="font-display text-4xl text-gold mb-1">15+</div>
+        <div class="font-body text-sm text-sand/70">سنة خبرة</div>
+      </div>
+      <div class="reveal" style="transition-delay:0.2s">
+        <div class="font-display text-4xl text-gold mb-1">100%</div>
+        <div class="font-body text-sm text-sand/70">خامات أصيلة</div>
+      </div>
+      <div class="reveal" style="transition-delay:0.3s">
+        <div class="font-display text-4xl text-gold mb-1">✦</div>
+        <div class="font-body text-sm text-sand/70">تفصيل يدوي حصري</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       GALLERY SECTION
+  ═══════════════════════════════════════ -->
+  <section id="gallery" class="py-24 bg-cream">
+    <div class="max-w-6xl mx-auto px-6">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16 reveal">
+        <p class="font-body text-gold text-sm tracking-widest uppercase mb-3">إبداعاتنا</p>
+        <h2 class="font-display text-4xl md:text-5xl text-charcoal mb-4">معرض الأعمال</h2>
+        <div class="ornament-divider max-w-xs mx-auto">
+          <span class="text-gold text-xl">✦</span>
+        </div>
+        <p class="font-body text-muted text-base mt-4 max-w-md mx-auto leading-relaxed">
+          كل قطعة قصة من الأناقة — نسجناها بعناية لتعكس شخصيتكِ وذوقكِ الرفيع
+        </p>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+
+        <!-- Large item -->
+        <div class="gallery-item col-span-2 md:col-span-1 md:row-span-2 rounded-2xl overflow-hidden reveal">
+          <img
+            src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&q=80"
+            alt="قفطان مغربي فاخر"
+            class="w-full h-80 md:h-full object-cover"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">قفطان ملكي</span>
+          </div>
+        </div>
+
+        <div class="gallery-item rounded-2xl overflow-hidden reveal" style="transition-delay:0.1s">
+          <img
+            src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=600&q=80"
+            alt="جلابة مغربية أنيقة"
+            class="w-full h-48 object-cover"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">جلابة نسائية</span>
+          </div>
+        </div>
+
+        <div class="gallery-item rounded-2xl overflow-hidden reveal" style="transition-delay:0.15s">
+          <img
+            src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80"
+            alt="فستان سهرة فاخر"
+            class="w-full h-48 object-cover"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">فستان سهرة</span>
+          </div>
+        </div>
+
+        <div class="gallery-item rounded-2xl overflow-hidden reveal" style="transition-delay:0.2s">
+          <img
+            src="https://images.unsplash.com/photo-1551803091-e20673f15770?w=600&q=80"
+            alt="تطريز مغربي"
+            class="w-full h-48 object-cover object-top"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">تطريز يدوي</span>
+          </div>
+        </div>
+
+        <div class="gallery-item rounded-2xl overflow-hidden reveal" style="transition-delay:0.25s">
+          <img
+            src="https://images.unsplash.com/photo-1603217192634-61068e4d4bf9?w=600&q=80"
+            alt="قماش فاخر"
+            class="w-full h-48 object-cover"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">أقمشة فاخرة</span>
+          </div>
+        </div>
+
+        <div class="gallery-item rounded-2xl overflow-hidden reveal" style="transition-delay:0.3s">
+          <img
+            src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&q=80"
+            alt="أزياء أنيقة"
+            class="w-full h-48 object-cover"
+          />
+          <div class="gallery-overlay">
+            <span class="text-ivory font-body text-sm font-medium">تصاميم حصرية</span>
+          </div>
+        </div>
+
+      </div><!-- /grid -->
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       SERVICES SECTION
+  ═══════════════════════════════════════ -->
+  <section id="services" class="py-24 bg-ivory moroccan-pattern">
+    <div class="max-w-6xl mx-auto px-6">
+
+      <!-- Section Header -->
+      <div class="text-center mb-16 reveal">
+        <p class="font-body text-gold text-sm tracking-widest uppercase mb-3">ما نقدمه</p>
+        <h2 class="font-display text-4xl md:text-5xl text-charcoal mb-4">خدماتنا</h2>
+        <div class="ornament-divider max-w-xs mx-auto">
+          <span class="text-gold text-xl">✦</span>
+        </div>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid md:grid-cols-3 gap-8">
+
+        <!-- Service 1 -->
+        <div class="service-card rounded-2xl p-8 reveal">
+          <div class="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-6">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#B8965A" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl text-charcoal mb-3">القفطان المغربي</h3>
+          <p class="font-body text-muted text-sm leading-loose">
+            تفصيل قفاطين بأجود الأقمشة المغربية والتطريز اليدوي الأصيل، مصمَّمة خصيصاً لمقاساتكِ وذوقكِ.
+          </p>
+          <div class="mt-6 pt-6 border-t border-sand">
+            <span class="text-gold text-xs font-medium tracking-wider">تشمل: فرح · عيد · مناسبات</span>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card rounded-2xl p-8 reveal" style="transition-delay:0.15s">
+          <div class="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-6">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#B8965A" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl text-charcoal mb-3">فساتين السهرة</h3>
+          <p class="font-body text-muted text-sm leading-loose">
+            فساتين سهرة وحفلات بأسلوب عصري راقٍ، تجمعين فيها بين الكلاسيكية والحداثة في كل تفصيلة.
+          </p>
+          <div class="mt-6 pt-6 border-t border-sand">
+            <span class="text-gold text-xs font-medium tracking-wider">تشمل: أفراح · سهرات · حفلات</span>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card rounded-2xl p-8 reveal" style="transition-delay:0.3s">
+          <div class="w-14 h-14 rounded-xl bg-gold/10 flex items-center justify-center mb-6">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#B8965A" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.324.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 011.37.49l1.296 2.247a1.125 1.125 0 01-.26 1.431l-1.003.827c-.293.24-.438.613-.431.992a6.759 6.759 0 010 .255c-.007.378.138.75.43.99l1.005.828c.424.35.534.954.26 1.43l-1.298 2.247a1.125 1.125 0 01-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 01-.22.128c-.331.183-.581.495-.644.869l-.213 1.28c-.09.543-.56.941-1.11.941h-2.594c-.55 0-1.02-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 01-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 01-1.369-.49l-1.297-2.247a1.125 1.125 0 01.26-1.431l1.004-.827c.292-.24.437-.613.43-.992a6.932 6.932 0 010-.255c.007-.378-.138-.75-.43-.99l-1.004-.828a1.125 1.125 0 01-.26-1.43l1.297-2.247a1.125 1.125 0 011.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.087.22-.128.332-.183.582-.495.644-.869l.214-1.281z"/>
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-display text-xl text-charcoal mb-3">إصلاح وتعديل الملابس</h3>
+          <p class="font-body text-muted text-sm leading-loose">
+            خدمة تعديل وإصلاح احترافية لجميع أنواع الملابس — نُعيد لأثوابكِ رونقها بسرعة وإتقان.
+          </p>
+          <div class="mt-6 pt-6 border-t border-sand">
+            <span class="text-gold text-xs font-medium tracking-wider">تشمل: تضييق · تطويل · ترقيع</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       PROCESS SECTION
+  ═══════════════════════════════════════ -->
+  <section class="py-20 bg-charcoal">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-14 reveal">
+        <p class="font-body text-gold text-sm tracking-widest uppercase mb-3">كيف نعمل</p>
+        <h2 class="font-display text-3xl md:text-4xl text-ivory">رحلتكِ مع خياطة عصرية</h2>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="text-center reveal">
+          <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mx-auto mb-4 font-display text-gold text-lg">١</div>
+          <h4 class="font-body text-ivory font-medium mb-2">التواصل</h4>
+          <p class="font-body text-sand/60 text-sm">احجزي موعدك عبر واتساب</p>
+        </div>
+        <div class="text-center reveal" style="transition-delay:0.1s">
+          <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mx-auto mb-4 font-display text-gold text-lg">٢</div>
+          <h4 class="font-body text-ivory font-medium mb-2">الاستشارة</h4>
+          <p class="font-body text-sand/60 text-sm">نختار التصميم والقماش معاً</p>
+        </div>
+        <div class="text-center reveal" style="transition-delay:0.2s">
+          <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mx-auto mb-4 font-display text-gold text-lg">٣</div>
+          <h4 class="font-body text-ivory font-medium mb-2">القياس</h4>
+          <p class="font-body text-sand/60 text-sm">أخذ المقاسات بدقة متناهية</p>
+        </div>
+        <div class="text-center reveal" style="transition-delay:0.3s">
+          <div class="w-12 h-12 rounded-full border border-gold/40 flex items-center justify-center mx-auto mb-4 font-display text-gold text-lg">٤</div>
+          <h4 class="font-body text-ivory font-medium mb-2">التسليم</h4>
+          <p class="font-body text-sand/60 text-sm">تستلمين إطلالتكِ الفريدة</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       LOCATION SECTION
+  ═══════════════════════════════════════ -->
+  <section id="location" class="py-24 bg-cream">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-16 items-center">
+
+        <!-- Text Content -->
+        <div class="reveal">
+          <p class="font-body text-gold text-sm tracking-widest uppercase mb-3">أين نتواجد</p>
+          <h2 class="font-display text-4xl md:text-5xl text-charcoal mb-6">
+            في قلب<br /><span class="italic text-gold">اليوسفية</span>
+          </h2>
+          <div class="w-16 h-0.5 bg-gold mb-8"></div>
+
+          <p class="font-body text-muted text-base leading-loose mb-8">
+            محلّنا يقع في مدينة اليوسفية — ننتظركِ لاكتشاف عالمنا من الأناقة والإبداع. نُرحّب بكِ بكوب شاي مغربي دافئ بينما نستشيركِ في أجمل التصاميم.
+          </p>
+
+          <div class="space-y-4">
+            <div class="flex items-start gap-4 bg-ivory rounded-xl p-4 border border-sand">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg width="18" height="18" fill="none" stroke="#B8965A" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="font-body font-medium text-charcoal">العنوان</p>
+                <p class="font-body text-muted text-sm">مدينة اليوسفية، إقليم اليوسفية، المغرب</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-ivory rounded-xl p-4 border border-sand">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg width="18" height="18" fill="none" stroke="#B8965A" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="font-body font-medium text-charcoal">ساعات العمل</p>
+                <p class="font-body text-muted text-sm">السبت – الخميس: ٩ص – ٨م</p>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 bg-ivory rounded-xl p-4 border border-sand">
+              <div class="w-10 h-10 rounded-lg bg-gold/10 flex items-center justify-center flex-shrink-0">
+                <svg width="18" height="18" fill="#B8965A" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413z"/>
+                </svg>
+              </div>
+              <div>
+                <p class="font-body font-medium text-charcoal">واتساب</p>
+                <p class="font-body text-muted text-sm" dir="ltr">+212 600 000 000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="reveal" style="transition-delay:0.2s">
+          <div class="relative rounded-3xl overflow-hidden shadow-2xl shadow-charcoal/20 border border-sand h-96 md:h-[480px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53762.0!2d-8.5298!3d32.2445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdaf7b87e5ff90f3%3A0x9d9c6a6e5aae77c2!2sYoussoufia!5e0!3m2!1sar!2sma!4v1700000000000"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="موقع خياطة عصرية في اليوسفية"
+            ></iframe>
+            <!-- Overlay badge -->
+            <div class="absolute top-4 right-4 bg-ivory/95 backdrop-blur-sm rounded-xl px-4 py-3 border border-sand shadow-md">
+              <p class="font-display text-charcoal text-sm font-semibold">خياطة عصرية</p>
+              <p class="font-body text-muted text-xs">اليوسفية، المغرب</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       TESTIMONIALS
+  ═══════════════════════════════════════ -->
+  <section class="py-20 bg-ivory moroccan-pattern">
+    <div class="max-w-5xl mx-auto px-6">
+      <div class="text-center mb-14 reveal">
+        <p class="font-body text-gold text-sm tracking-widest uppercase mb-3">آراء عميلاتنا</p>
+        <h2 class="font-display text-3xl md:text-4xl text-charcoal">يقلن عنّا</h2>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-cream rounded-2xl p-7 border border-sand reveal">
+          <div class="flex mb-4">
+            <span class="text-gold text-lg">★★★★★</span>
+          </div>
+          <p class="font-body text-muted text-sm leading-loose mb-5">"قفتاني كان أحلى من اللي تصورته! الخياطة دقيقة والخامة فاخرة جداً. شكراً خياطة عصرية!"</p>
+          <p class="font-body font-medium text-charcoal text-sm">فاطمة الزهراء</p>
+          <p class="font-body text-gold text-xs">اليوسفية</p>
+        </div>
+        <div class="bg-cream rounded-2xl p-7 border border-sand reveal" style="transition-delay:0.1s">
+          <div class="flex mb-4">
+            <span class="text-gold text-lg">★★★★★</span>
+          </div>
+          <p class="font-body text-muted text-sm leading-loose mb-5">"فستان السهرة ديالي كان تحفة! ولا كاينة زوينة وخدماتها ممتازة. نوصي بيها لكل واحدة."</p>
+          <p class="font-body font-medium text-charcoal text-sm">سارة بنعلي</p>
+          <p class="font-body text-gold text-xs">الصخيرات</p>
+        </div>
+        <div class="bg-cream rounded-2xl p-7 border border-sand reveal" style="transition-delay:0.2s">
+          <div class="flex mb-4">
+            <span class="text-gold text-lg">★★★★★</span>
+          </div>
+          <p class="font-body text-muted text-sm leading-loose mb-5">"جربت تعديل ملابسي هنا والنتيجة ممتازة، سريعة ومتقنة. السعر مناسب والخدمة راقية."</p>
+          <p class="font-body font-medium text-charcoal text-sm">ليلى الحسيني</p>
+          <p class="font-body text-gold text-xs">مراكش</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       CONTACT / WHATSAPP SECTION
+  ═══════════════════════════════════════ -->
+  <section id="contact" class="py-24 bg-charcoal relative overflow-hidden">
+
+    <!-- Background decoration -->
+    <div class="absolute top-0 right-0 w-96 h-96 rounded-full bg-gold/5 -translate-y-1/2 translate-x-1/2"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 rounded-full bg-gold/5 translate-y-1/2 -translate-x-1/2"></div>
+
+    <div class="relative max-w-3xl mx-auto px-6 text-center reveal">
+
+      <p class="font-body text-gold text-sm tracking-widest uppercase mb-4">ابدئي رحلتك</p>
+
+      <h2 class="font-display text-4xl md:text-6xl text-ivory mb-6 leading-tight">
+        إطلالتكِ المثالية<br />
+        <span class="gold-shimmer">تبدأ من هنا</span>
+      </h2>
+
+      <p class="font-body text-sand/70 text-base leading-loose mb-12 max-w-lg mx-auto">
+        تواصلي معنا الآن عبر واتساب وسنرد عليكِ في أقرب وقت لحجز موعدكِ أو الاستفسار عن أي خدمة.
+      </p>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.me/212600000000?text=السلام%20عليكم،%20أريد%20حجز%20موعد%20في%20خياطة%20عصرية"
+         class="relative inline-flex items-center gap-4 bg-[#25D366] hover:bg-[#1fb555] text-white font-body font-semibold text-xl px-10 py-5 rounded-2xl transition-all duration-300 shadow-2xl shadow-[#25D366]/30 hover:shadow-[#25D366]/50 hover:-translate-y-1 whatsapp-pulse">
+        <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+        <span>تحدثي معنا على واتساب</span>
+      </a>
+
+      <p class="font-body text-sand/40 text-sm mt-6" dir="ltr">+212 600 000 000</p>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer class="bg-charcoal border-t border-sand/10 py-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+
+      <div class="text-center md:text-right">
+        <div class="font-display text-xl text-ivory mb-1">خياطة عصرية</div>
+        <p class="font-body text-sand/50 text-xs">اليوسفية، المغرب</p>
+      </div>
+
+      <div class="ornament-divider max-w-xs w-full md:hidden">
+        <span class="text-gold text-sm">✦</span>
+      </div>
+
+      <div class="flex items-center gap-6 font-body text-sm text-sand/50">
+        <a href="#gallery" class="hover:text-gold transition-colors">المعرض</a>
+        <a href="#services" class="hover:text-gold transition-colors">الخدمات</a>
+        <a href="#location" class="hover:text-gold transition-colors">الموقع</a>
+        <a href="#contact" class="hover:text-gold transition-colors">تواصل</a>
+      </div>
+
+      <p class="font-body text-sand/30 text-xs text-center">
+        © 2025 خياطة عصرية · جميع الحقوق محفوظة
+      </p>
+
+    </div>
+  </footer>
+
+
+  <!-- ═══════════════════════════════════════
+       FLOATING WHATSAPP BUTTON
+  ═══════════════════════════════════════ -->
+  <a href="https://wa.me/212600000000?text=السلام%20عليكم،%20أريد%20حجز%20موعد"
+     class="fixed bottom-6 left-6 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-xl hover:scale-110 transition-transform duration-300 whatsapp-pulse"
+     title="تواصل معنا على واتساب">
+    <svg width="26" height="26" fill="white" viewBox="0 0 24 24">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+
+  <!-- ═══════════════════════════════════════
+       SCROLL REVEAL JS
+  ═══════════════════════════════════════ -->
+  <script>
+    const reveals = document.querySelectorAll('.reveal');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, {
+      threshold: 0.12,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    reveals.forEach(el => observer.observe(el));
+
+    // Smooth mobile nav
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
